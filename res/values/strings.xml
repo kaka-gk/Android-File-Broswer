@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USBTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ensure">ok</string>
+    <string name="cancel">cancel</string>
+    
+    <!-- copy type -->
+    <string name="mode_backup">backup</string>
+    <string name="mode_update">update</string>
+    
+    <!-- File property -->
+    <string name="file_path">filePath</string>
+    <string name="file_type_directory">directory</string>
+    <string name="file_type_file">file</string>
+    
+    
+</resources>

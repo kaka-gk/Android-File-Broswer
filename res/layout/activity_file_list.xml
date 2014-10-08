@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dip"
+    android:paddingTop="20dip"
+    android:background="@color/color_white_bg"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tv_currentDirectory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dip"
+	    android:background="@color/color_white_bg"
+	    android:layout_marginBottom="10dip"
+	    android:layout_marginTop="10dip"
+	    />
+	<ListView
+	    android:id="@+id/lv_files"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:divider="#ddd"
+	    android:background="@color/color_gray_bg"
+	    android:padding="2dip"
+	    android:dividerHeight="1dip"
+	    />
+
+</LinearLayout>
